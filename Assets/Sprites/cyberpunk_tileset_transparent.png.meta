@@ -3,64 +3,64 @@ guid: 12f6072294a40544da289ed3eb560f38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1000000
+      213: -6958185264959644112
     second: FloorTop_Neon
   - first:
-      213: 1000001
+      213: 3924262744592302662
     second: FloorTop_Panel
   - first:
-      213: 1000002
+      213: -4909999276634117547
     second: FloorFill_Metal
   - first:
-      213: 1000003
+      213: 3584639183497102492
     second: FloorFill_Tech
   - first:
-      213: 1000004
+      213: -1682550953038108997
     second: Platform_Neon
   - first:
-      213: 1000005
+      213: -7158597008580389757
     second: Wall_PipeHoriz
   - first:
-      213: 1000006
+      213: -4111829316706266981
     second: Wall_Grate
   - first:
-      213: 1000007
+      213: 1514316968850563611
     second: Wall_DarkPanel
   - first:
-      213: 1000008
+      213: -1963120178872784812
     second: Hazard_Block
   - first:
-      213: 1000009
+      213: -3131342457789775295
     second: Checkpoint_Terminal
   - first:
-      213: 1000010
+      213: -6476956646412584373
     second: Door_0
   - first:
-      213: 1000011
+      213: 2198021362097968574
     second: Door_1
   - first:
-      213: 1000012
+      213: 3686674748152222785
     second: Door_2
   - first:
-      213: 1000013
+      213: -8105932708231585521
     second: Door_3
   - first:
-      213: 1000014
+      213: 7551957636716985838
     second: Wall_Window
   - first:
-      213: 1000015
+      213: -6549263788543990
     second: Wall_PillarStrut
   - first:
-      213: 1000016
+      213: 6854556336724656182
     second: Block_TechLED
   - first:
-      213: 1000017
+      213: -4634731387704153841
     second: Support_Truss
   - first:
-      213: 1000018
+      213: -4230222568113085046
     second: Wall_NeonVert
   - first:
-      213: 1000019
+      213: 4219175831318292465
     second: Wall_ServerRack
   externalObjects: {}
   serializedVersion: 13
@@ -175,8 +175,8 @@ TextureImporter:
       name: FloorTop_Neon
       rect:
         serializedVersion: 2
-        x: 542
-        y: 626
+        x: 625
+        y: 616
         width: 76
         height: 76
       alignment: 0
@@ -198,7 +198,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 269
-        y: 488
+        y: 489
         width: 76
         height: 76
       alignment: 0
@@ -219,7 +219,7 @@ TextureImporter:
       name: FloorFill_Metal
       rect:
         serializedVersion: 2
-        x: 178
+        x: 179
         y: 393
         width: 76
         height: 76
@@ -263,8 +263,8 @@ TextureImporter:
       name: Platform_Neon
       rect:
         serializedVersion: 2
-        x: 358
-        y: 300
+        x: 625
+        y: 612
         width: 76
         height: 76
       alignment: 0
@@ -285,8 +285,8 @@ TextureImporter:
       name: Wall_PipeHoriz
       rect:
         serializedVersion: 2
-        x: 535
-        y: 300
+        x: 625
+        y: 628
         width: 76
         height: 76
       alignment: 0
@@ -307,8 +307,8 @@ TextureImporter:
       name: Wall_Grate
       rect:
         serializedVersion: 2
-        x: 446
-        y: 488
+        x: 358
+        y: 628
         width: 76
         height: 76
       alignment: 0
@@ -329,8 +329,8 @@ TextureImporter:
       name: Wall_DarkPanel
       rect:
         serializedVersion: 2
-        x: 80
-        y: 488
+        x: 82
+        y: 604
         width: 76
         height: 76
       alignment: 0
@@ -386,7 +386,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cd4883b2fa5ad774f8ba2c2e9dc8fe63
-      internalID: -1963120178872784812
+      internalID: -3131342457789775295
       vertices: []
       indices: 
       edges: []
@@ -408,7 +408,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b90e44c03b13c1243961847882123670
-      internalID: -1963120178872784812
+      internalID: -6476956646412584373
       vertices: []
       indices: 
       edges: []
@@ -430,7 +430,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a2e9744bf1dc4dd42a4010b73bf3e0ec
-      internalID: -1963120178872784812
+      internalID: 2198021362097968574
       vertices: []
       indices: 
       edges: []
@@ -452,7 +452,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8f4d51a1774715940a4b23328950fd99
-      internalID: -1963120178872784812
+      internalID: 3686674748152222785
       vertices: []
       indices: 
       edges: []
@@ -474,7 +474,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b24117ac3d7f2ce4a8e374870ab3f1ff
-      internalID: -1963120178872784812
+      internalID: -8105932708231585521
       vertices: []
       indices: 
       edges: []
@@ -483,8 +483,8 @@ TextureImporter:
       name: Wall_Window
       rect:
         serializedVersion: 2
-        x: 973
-        y: 394
+        x: 358
+        y: 580
         width: 76
         height: 76
       alignment: 0
@@ -496,7 +496,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 428c8622c96adfe4a98c9f780df64f3b
-      internalID: -1963120178872784812
+      internalID: 7551957636716985838
       vertices: []
       indices: 
       edges: []
@@ -505,8 +505,8 @@ TextureImporter:
       name: Wall_PillarStrut
       rect:
         serializedVersion: 2
-        x: 973
-        y: 626
+        x: 446
+        y: 628
         width: 76
         height: 76
       alignment: 0
@@ -518,7 +518,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a2ad7f22f4352cf41af4a2e883ca458b
-      internalID: -1963120178872784812
+      internalID: -6549263788543990
       vertices: []
       indices: 
       edges: []
@@ -528,7 +528,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 269
-        y: 488
+        y: 489
         width: 76
         height: 76
       alignment: 0
@@ -540,7 +540,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0894c7a317a5b7a48bc3e8e0c4c09a7b
-      internalID: -1963120178872784812
+      internalID: 6854556336724656182
       vertices: []
       indices: 
       edges: []
@@ -549,8 +549,8 @@ TextureImporter:
       name: Support_Truss
       rect:
         serializedVersion: 2
-        x: 885
-        y: 115
+        x: 446
+        y: 580
         width: 76
         height: 76
       alignment: 0
@@ -562,7 +562,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 16c0125b951a52a43b8b970baff8d965
-      internalID: -1963120178872784812
+      internalID: -4634731387704153841
       vertices: []
       indices: 
       edges: []
@@ -571,8 +571,8 @@ TextureImporter:
       name: Wall_NeonVert
       rect:
         serializedVersion: 2
-        x: 709
-        y: 300
+        x: 446
+        y: 604
         width: 76
         height: 76
       alignment: 0
@@ -584,7 +584,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 80df99a62dbe4424e9906715716224cf
-      internalID: -1963120178872784812
+      internalID: -4230222568113085046
       vertices: []
       indices: 
       edges: []
@@ -593,8 +593,8 @@ TextureImporter:
       name: Wall_ServerRack
       rect:
         serializedVersion: 2
-        x: 533
-        y: 207
+        x: 625
+        y: 580
         width: 76
         height: 76
       alignment: 0
@@ -606,7 +606,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1a1d02757b8cb084fbece06706f3d452
-      internalID: -1963120178872784812
+      internalID: 4219175831318292465
       vertices: []
       indices: 
       edges: []
@@ -625,302 +625,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Block_TechLED: -1963120178872784812
-      Checkpoint_Beacon: -1184492757976570921
-      Checkpoint_Terminal: -1963120178872784812
-      Door_0: -1963120178872784812
-      Door_1: -1963120178872784812
-      Door_2: -1963120178872784812
-      Door_3: -1963120178872784812
-      Exit_Portal: 1017034892705869085
-      FloorFill_Metal: -4909999276634117547
+      Door_3: -8105932708231585521
+      Wall_Window: 7551957636716985838
+      Door_2: 3686674748152222785
+      Door_0: -6476956646412584373
+      Door_1: 2198021362097968574
+      Wall_NeonVert: -4230222568113085046
+      Wall_ServerRack: 4219175831318292465
+      Support_Truss: -4634731387704153841
+      Wall_PillarStrut: -6549263788543990
+      Block_TechLED: 6854556336724656182
       FloorFill_Tech: 3584639183497102492
+      Platform_Neon: -1682550953038108997
+      FloorFill_Metal: -4909999276634117547
       FloorTop_Neon: -6958185264959644112
       FloorTop_Panel: 3924262744592302662
       Hazard_Block: -1963120178872784812
-      Platform_Neon: -1682550953038108997
-      Support_Truss: -1963120178872784812
+      Checkpoint_Terminal: -3131342457789775295
       Wall_DarkPanel: 1514316968850563611
-      Wall_Grate: -4111829316706266981
-      Wall_NeonVert: -1963120178872784812
-      Wall_PillarStrut: -1963120178872784812
       Wall_PipeHoriz: -7158597008580389757
-      Wall_ServerRack: -1963120178872784812
-      Wall_Window: -1963120178872784812
-      cyberpunk_tileset_transparent_0: 2125043462642918289
-      cyberpunk_tileset_transparent_00: 3184006966659552675
-      cyberpunk_tileset_transparent_01: -3235492629264807403
-      cyberpunk_tileset_transparent_02: 24037040065563620
-      cyberpunk_tileset_transparent_03: -4309621606339266186
-      cyberpunk_tileset_transparent_04: -8622361414668574334
-      cyberpunk_tileset_transparent_05: -4693778723119630653
-      cyberpunk_tileset_transparent_06: 3271435238730115115
-      cyberpunk_tileset_transparent_07: -3984588301555683980
-      cyberpunk_tileset_transparent_08: 4491060953898685277
-      cyberpunk_tileset_transparent_09: 267109598500597203
-      cyberpunk_tileset_transparent_1: 7515996413772763646
-      cyberpunk_tileset_transparent_10: -8504298248839490600
-      cyberpunk_tileset_transparent_100: 2770114423799081906
-      cyberpunk_tileset_transparent_101: 6062615387369379784
-      cyberpunk_tileset_transparent_102: 6885452792125156765
-      cyberpunk_tileset_transparent_103: 1439195709142979275
-      cyberpunk_tileset_transparent_104: -3107535090059866337
-      cyberpunk_tileset_transparent_105: -5353334564140158516
-      cyberpunk_tileset_transparent_106: -594733111787692783
-      cyberpunk_tileset_transparent_107: -6043128333269490590
-      cyberpunk_tileset_transparent_108: -105328969900078227
-      cyberpunk_tileset_transparent_109: -7799785597030145444
-      cyberpunk_tileset_transparent_11: -7771348666064440590
-      cyberpunk_tileset_transparent_110: -2654289671217749712
-      cyberpunk_tileset_transparent_111: -3330494093606018570
-      cyberpunk_tileset_transparent_112: -4993801469314011530
-      cyberpunk_tileset_transparent_113: -3927941477533033881
-      cyberpunk_tileset_transparent_114: 1264421412634416365
-      cyberpunk_tileset_transparent_115: -8214092431681907036
-      cyberpunk_tileset_transparent_116: 4204645215773778520
-      cyberpunk_tileset_transparent_117: -9079244592513262150
-      cyberpunk_tileset_transparent_118: 7650978361889213506
-      cyberpunk_tileset_transparent_119: -7315216810055351392
-      cyberpunk_tileset_transparent_12: -1504654619372156453
-      cyberpunk_tileset_transparent_120: -816487299628957346
-      cyberpunk_tileset_transparent_121: 3774189240705414030
-      cyberpunk_tileset_transparent_122: -7117272567401258733
-      cyberpunk_tileset_transparent_123: -5720931967346780742
-      cyberpunk_tileset_transparent_124: -8034086035705691695
-      cyberpunk_tileset_transparent_125: -698449089168485580
-      cyberpunk_tileset_transparent_126: -509231334123025546
-      cyberpunk_tileset_transparent_127: 6713161263190748077
-      cyberpunk_tileset_transparent_128: 2555577159787408455
-      cyberpunk_tileset_transparent_129: 2783558165563438146
-      cyberpunk_tileset_transparent_13: -3385393399434663743
-      cyberpunk_tileset_transparent_130: -1122137444076053297
-      cyberpunk_tileset_transparent_131: -788101721115216162
-      cyberpunk_tileset_transparent_132: -474665024736532022
-      cyberpunk_tileset_transparent_133: -5108046221219505650
-      cyberpunk_tileset_transparent_134: -6829466960070055619
-      cyberpunk_tileset_transparent_135: 6117124574215891862
-      cyberpunk_tileset_transparent_136: 7313401374055006919
-      cyberpunk_tileset_transparent_137: -2621555813752177110
-      cyberpunk_tileset_transparent_138: 6375063289528783654
-      cyberpunk_tileset_transparent_139: 3215333104210908313
-      cyberpunk_tileset_transparent_14: -551935018989571660
-      cyberpunk_tileset_transparent_140: -5723848918985209163
-      cyberpunk_tileset_transparent_141: 7689278155376533761
-      cyberpunk_tileset_transparent_142: -5129859644835601379
-      cyberpunk_tileset_transparent_143: 5329569384361381594
-      cyberpunk_tileset_transparent_144: 7581586799715532512
-      cyberpunk_tileset_transparent_145: -1806128849057416300
-      cyberpunk_tileset_transparent_146: 2327496993318271209
-      cyberpunk_tileset_transparent_147: -8568828881356509869
-      cyberpunk_tileset_transparent_148: 1032728454229975154
-      cyberpunk_tileset_transparent_149: 5611277771096116629
-      cyberpunk_tileset_transparent_15: -4777753357573840242
-      cyberpunk_tileset_transparent_150: 9136064542401848215
-      cyberpunk_tileset_transparent_151: -928222196761105086
-      cyberpunk_tileset_transparent_152: 6234849605891517067
-      cyberpunk_tileset_transparent_153: -3035066347716936423
-      cyberpunk_tileset_transparent_154: -4770248132587887506
-      cyberpunk_tileset_transparent_155: -9024269023905199450
-      cyberpunk_tileset_transparent_156: -1855076861919840135
-      cyberpunk_tileset_transparent_157: 324868405596764351
-      cyberpunk_tileset_transparent_158: -1147518000744606664
-      cyberpunk_tileset_transparent_159: 6452969314560889749
-      cyberpunk_tileset_transparent_16: 6648123830113400374
-      cyberpunk_tileset_transparent_160: 7339888239775061217
-      cyberpunk_tileset_transparent_161: 7809313472797967132
-      cyberpunk_tileset_transparent_162: 8345368090328230576
-      cyberpunk_tileset_transparent_163: 7568699242875378518
-      cyberpunk_tileset_transparent_164: 5610025680118955758
-      cyberpunk_tileset_transparent_165: -3338722794682377902
-      cyberpunk_tileset_transparent_166: -6299825970548378247
-      cyberpunk_tileset_transparent_167: 1642999740643727682
-      cyberpunk_tileset_transparent_168: -7716778429876045874
-      cyberpunk_tileset_transparent_169: -4985023661540342639
-      cyberpunk_tileset_transparent_17: 4552565566032638060
-      cyberpunk_tileset_transparent_170: 4005251343961515234
-      cyberpunk_tileset_transparent_171: -3125946295782226878
-      cyberpunk_tileset_transparent_172: 4260866066736020154
-      cyberpunk_tileset_transparent_173: -2216129033941012984
-      cyberpunk_tileset_transparent_174: -5993701672773740813
-      cyberpunk_tileset_transparent_175: -7377555529103999497
-      cyberpunk_tileset_transparent_176: -8496225571445402569
-      cyberpunk_tileset_transparent_177: 5378493627908053160
-      cyberpunk_tileset_transparent_178: 3108049873491057990
-      cyberpunk_tileset_transparent_179: 1878976861730110624
-      cyberpunk_tileset_transparent_18: 3002574569059969187
-      cyberpunk_tileset_transparent_180: -392150908073991837
-      cyberpunk_tileset_transparent_181: 1210790284206470372
-      cyberpunk_tileset_transparent_182: 6437691054383264438
-      cyberpunk_tileset_transparent_183: -6485486749235298788
-      cyberpunk_tileset_transparent_184: -372294201104667464
-      cyberpunk_tileset_transparent_185: -1169508573950248121
-      cyberpunk_tileset_transparent_186: -2161094968517760743
-      cyberpunk_tileset_transparent_187: -1874434895705887910
-      cyberpunk_tileset_transparent_188: 5097420177756274468
-      cyberpunk_tileset_transparent_189: 4094421690926651392
-      cyberpunk_tileset_transparent_19: 4690507407154822179
-      cyberpunk_tileset_transparent_190: -4076625267555778266
-      cyberpunk_tileset_transparent_191: 9049577723350852743
-      cyberpunk_tileset_transparent_192: 7712717056030873359
-      cyberpunk_tileset_transparent_193: -2674733555731001319
-      cyberpunk_tileset_transparent_194: -1894822640194038574
-      cyberpunk_tileset_transparent_195: -6486517991619712081
-      cyberpunk_tileset_transparent_196: 8928089480979712574
-      cyberpunk_tileset_transparent_197: 6058531835831314033
-      cyberpunk_tileset_transparent_198: 3482871414886501298
-      cyberpunk_tileset_transparent_199: -2302421282090882196
-      cyberpunk_tileset_transparent_2: 958015299427607280
-      cyberpunk_tileset_transparent_20: -4390670180612620591
-      cyberpunk_tileset_transparent_200: -8103545416361985106
-      cyberpunk_tileset_transparent_201: -1188589721991165771
-      cyberpunk_tileset_transparent_202: 3808322822616149395
-      cyberpunk_tileset_transparent_203: 8316431303371630478
-      cyberpunk_tileset_transparent_204: 7293565488553033150
-      cyberpunk_tileset_transparent_205: 9064388672450696277
-      cyberpunk_tileset_transparent_206: -1810640282352199781
-      cyberpunk_tileset_transparent_207: 2297978123899496912
-      cyberpunk_tileset_transparent_208: -3339141007716428088
-      cyberpunk_tileset_transparent_209: 6784232044169513474
-      cyberpunk_tileset_transparent_21: -7555804459913581657
-      cyberpunk_tileset_transparent_210: 8752505865173028735
-      cyberpunk_tileset_transparent_211: -72741435521498487
-      cyberpunk_tileset_transparent_212: -9217023210063393655
-      cyberpunk_tileset_transparent_213: -8869270493615500862
-      cyberpunk_tileset_transparent_214: 2507440152039796373
-      cyberpunk_tileset_transparent_215: 3298631568287817343
-      cyberpunk_tileset_transparent_216: -7396175772550092024
-      cyberpunk_tileset_transparent_217: -5304697570638662104
-      cyberpunk_tileset_transparent_218: 4666457799176849116
-      cyberpunk_tileset_transparent_219: 2526040529961962002
-      cyberpunk_tileset_transparent_22: -2306627019168016376
-      cyberpunk_tileset_transparent_220: 2853251662813731606
-      cyberpunk_tileset_transparent_221: 5839560251449399304
-      cyberpunk_tileset_transparent_222: -2691877593775074940
-      cyberpunk_tileset_transparent_223: 3081335755982442383
-      cyberpunk_tileset_transparent_224: 1273220382925044370
-      cyberpunk_tileset_transparent_225: -9210958328082105118
-      cyberpunk_tileset_transparent_226: -6337116116080370259
-      cyberpunk_tileset_transparent_227: 5092053585671212259
-      cyberpunk_tileset_transparent_228: -2972051202925366296
-      cyberpunk_tileset_transparent_229: -733913255677801563
-      cyberpunk_tileset_transparent_23: 1881096944095649676
-      cyberpunk_tileset_transparent_230: -7273446979238446790
-      cyberpunk_tileset_transparent_231: 6338709470533431028
-      cyberpunk_tileset_transparent_232: -8566942715809546770
-      cyberpunk_tileset_transparent_233: -2621338315334866036
-      cyberpunk_tileset_transparent_234: 1216562811402859081
-      cyberpunk_tileset_transparent_235: -2612637944922552320
-      cyberpunk_tileset_transparent_236: -7292961821355176450
-      cyberpunk_tileset_transparent_237: 222391805684935672
-      cyberpunk_tileset_transparent_238: 3508340355713243348
-      cyberpunk_tileset_transparent_239: -1900037092472450329
-      cyberpunk_tileset_transparent_24: -1254718733555146757
-      cyberpunk_tileset_transparent_240: -5038984122130702918
-      cyberpunk_tileset_transparent_241: 5899479369659219732
-      cyberpunk_tileset_transparent_242: 3100300868222146051
-      cyberpunk_tileset_transparent_243: -510694336056103689
-      cyberpunk_tileset_transparent_244: 8792320261313945720
-      cyberpunk_tileset_transparent_245: -7221940238150692341
-      cyberpunk_tileset_transparent_246: -3231532866266789475
-      cyberpunk_tileset_transparent_247: 2738795607943964297
-      cyberpunk_tileset_transparent_248: -822640905104720868
-      cyberpunk_tileset_transparent_249: 3201800832262789370
-      cyberpunk_tileset_transparent_25: 3952122108631300892
-      cyberpunk_tileset_transparent_250: -2514219986205991605
-      cyberpunk_tileset_transparent_251: -6921596780816518780
-      cyberpunk_tileset_transparent_252: -1049561500302983239
-      cyberpunk_tileset_transparent_253: -5792502132414062145
-      cyberpunk_tileset_transparent_254: 4653343754816062471
-      cyberpunk_tileset_transparent_255: -59016377690002877
-      cyberpunk_tileset_transparent_256: -430835732989920805
-      cyberpunk_tileset_transparent_257: 2587310089028826258
-      cyberpunk_tileset_transparent_258: 37155894482669945
-      cyberpunk_tileset_transparent_259: -8231740603082251993
-      cyberpunk_tileset_transparent_26: 80929221471551751
-      cyberpunk_tileset_transparent_260: 7136104286434834236
-      cyberpunk_tileset_transparent_261: 2939492159966794096
-      cyberpunk_tileset_transparent_262: -5318626075204824331
-      cyberpunk_tileset_transparent_263: -9107078985404861061
-      cyberpunk_tileset_transparent_27: -5072444138965553962
-      cyberpunk_tileset_transparent_28: 1658445523237731621
-      cyberpunk_tileset_transparent_29: 1794856825523282882
-      cyberpunk_tileset_transparent_3: 7651080833777042660
-      cyberpunk_tileset_transparent_30: -1535465463460697599
-      cyberpunk_tileset_transparent_31: 1558261133821933314
-      cyberpunk_tileset_transparent_32: -8149414265751499015
-      cyberpunk_tileset_transparent_33: 2656093885300482852
-      cyberpunk_tileset_transparent_34: 7268931565326605872
-      cyberpunk_tileset_transparent_35: -5735080059716157220
-      cyberpunk_tileset_transparent_36: 9133773696505437611
-      cyberpunk_tileset_transparent_37: -1381967164529791650
-      cyberpunk_tileset_transparent_38: 8698198889969807061
-      cyberpunk_tileset_transparent_39: 5832056349871016548
-      cyberpunk_tileset_transparent_4: 2437830056695906941
-      cyberpunk_tileset_transparent_40: -3722719971934217180
-      cyberpunk_tileset_transparent_41: -8658087520276992125
-      cyberpunk_tileset_transparent_42: -4245265149879069391
-      cyberpunk_tileset_transparent_43: 2269501770552422555
-      cyberpunk_tileset_transparent_44: 4679738452253649314
-      cyberpunk_tileset_transparent_45: -868114375401639539
-      cyberpunk_tileset_transparent_46: -2255230885876562701
-      cyberpunk_tileset_transparent_47: 7346466144335385056
-      cyberpunk_tileset_transparent_48: -8780283234186310633
-      cyberpunk_tileset_transparent_49: 6887512203442688128
-      cyberpunk_tileset_transparent_5: 8862523489840654467
-      cyberpunk_tileset_transparent_50: -4588988170996286316
-      cyberpunk_tileset_transparent_51: -4542057080332567884
-      cyberpunk_tileset_transparent_52: 630591971950207074
-      cyberpunk_tileset_transparent_53: 8435088284025078384
-      cyberpunk_tileset_transparent_54: -6081537017473511659
-      cyberpunk_tileset_transparent_55: -1813624611267111879
-      cyberpunk_tileset_transparent_56: 9059141820481977571
-      cyberpunk_tileset_transparent_57: -3613807091546350145
-      cyberpunk_tileset_transparent_58: 3518048854646452084
-      cyberpunk_tileset_transparent_59: -6875832889430720326
-      cyberpunk_tileset_transparent_6: -3682205533240715080
-      cyberpunk_tileset_transparent_60: -4345371937407734091
-      cyberpunk_tileset_transparent_61: 776360006267818238
-      cyberpunk_tileset_transparent_62: 1878433020508716973
-      cyberpunk_tileset_transparent_63: 5285144618836267325
-      cyberpunk_tileset_transparent_64: 5855400968636621691
-      cyberpunk_tileset_transparent_65: -2366966610301525453
-      cyberpunk_tileset_transparent_66: -6732129996786448278
-      cyberpunk_tileset_transparent_67: -3193995633287841431
-      cyberpunk_tileset_transparent_68: -858069530958563295
-      cyberpunk_tileset_transparent_69: 4929860824699687086
-      cyberpunk_tileset_transparent_7: -5081126324870742401
-      cyberpunk_tileset_transparent_70: 4796828356869974530
-      cyberpunk_tileset_transparent_71: 4625184553026312345
-      cyberpunk_tileset_transparent_72: 7205227595620547089
-      cyberpunk_tileset_transparent_73: -4206787454075138643
-      cyberpunk_tileset_transparent_74: 2772102333949581493
-      cyberpunk_tileset_transparent_75: 3367567259676612828
-      cyberpunk_tileset_transparent_76: -8140295106372024836
-      cyberpunk_tileset_transparent_77: -7782981416062509273
-      cyberpunk_tileset_transparent_78: -5591666625698578371
-      cyberpunk_tileset_transparent_79: 7060417230539239977
-      cyberpunk_tileset_transparent_8: -1698620709974496047
-      cyberpunk_tileset_transparent_80: -8062230775440002109
-      cyberpunk_tileset_transparent_81: -7098008101645449849
-      cyberpunk_tileset_transparent_82: -6099109218473539648
-      cyberpunk_tileset_transparent_83: -1366017200819921316
-      cyberpunk_tileset_transparent_84: 8923667544757864321
-      cyberpunk_tileset_transparent_85: -8097823890103366753
-      cyberpunk_tileset_transparent_86: 1634208784251003106
-      cyberpunk_tileset_transparent_87: 1290282149417734721
-      cyberpunk_tileset_transparent_88: 8496466498032629431
-      cyberpunk_tileset_transparent_89: 135119466065057028
-      cyberpunk_tileset_transparent_9: -4093048182358365864
-      cyberpunk_tileset_transparent_90: -842105111529291901
-      cyberpunk_tileset_transparent_91: -5391169106324446358
-      cyberpunk_tileset_transparent_92: -7756336805438262669
-      cyberpunk_tileset_transparent_93: 7599372441663154715
-      cyberpunk_tileset_transparent_94: -8247616205125021019
-      cyberpunk_tileset_transparent_95: 7951992827326353402
-      cyberpunk_tileset_transparent_96: 3097718115520570589
-      cyberpunk_tileset_transparent_97: -3177271331079660292
-      cyberpunk_tileset_transparent_98: -514518903736670337
-      cyberpunk_tileset_transparent_99: 1204558210449544118
+      Wall_Grate: -4111829316706266981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
