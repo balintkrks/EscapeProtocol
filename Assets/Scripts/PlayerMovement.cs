@@ -3,13 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 3f;
-    public float sprintSpeed = 5f;
-    public float jumpForce = 11f;
-    public float fallMultiplier = 1.5f;
-    public float lowJumpMultiplier = 2f;
+    public float moveSpeed = 4f;
+    public float sprintSpeed = 6.5f;
+    public float jumpForce = 11.5f;
     public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
+    public float groundCheckRadius = 0.12f;
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
@@ -17,15 +15,14 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sr;
     private float horizontalInput;
     private float currentSpeed;
-    private float baseGravity;
     private bool isGrounded;
+    private bool jumpRequested;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
-        baseGravity = rb.gravityScale;
     }
 
     private void Update()
@@ -35,7 +32,14 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        if (rb.linearVelocity.y <= 0.1f)
+        {
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        }
+        else
+        {
+            isGrounded = false;
+        }
 
         horizontalInput = 0f;
         if (Keyboard.current.aKey.isPressed)
@@ -60,20 +64,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded == true)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
-
-        if (rb.linearVelocity.y < 0f)
-        {
-            rb.gravityScale = baseGravity * fallMultiplier;
-        }
-        else if (rb.linearVelocity.y > 0f && !Keyboard.current.spaceKey.isPressed)
-        {
-            rb.gravityScale = baseGravity * lowJumpMultiplier;
-        }
-        else
-        {
-            rb.gravityScale = baseGravity;
+            jumpRequested = true;
+            isGrounded = false;
         }
 
         if (Keyboard.current.eKey.wasPressedThisFrame)
@@ -86,7 +78,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(horizontalInput * currentSpeed, rb.linearVelocity.y);
+        float verticalVelocity = rb.linearVelocity.y;
+        if (jumpRequested == true)
+        {
+            verticalVelocity = jumpForce;
+            jumpRequested = false;
+        }
+
+        rb.linearVelocity = new Vector2(horizontalInput * currentSpeed, verticalVelocity);
     }
 
     private void Attack()

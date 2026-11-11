@@ -135,7 +135,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -196,11 +196,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc0237f12a3b3b47a86aa07f6bc9595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 3
-  sprintSpeed: 5
-  jumpForce: 11
+  moveSpeed: 4
+  sprintSpeed: 6.5
+  jumpForce: 11.5
   groundCheck: {fileID: 2031356348470442150}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 0.12
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
