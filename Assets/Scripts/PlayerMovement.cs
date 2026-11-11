@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 3f;
     public float sprintSpeed = 5f;
-    public float jumpForce = 8f;
+    public float jumpForce = 11f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
