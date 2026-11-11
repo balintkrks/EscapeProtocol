@@ -1208,6 +1208,116 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Checkpoint_Terminal
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 111
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a23366f9090747a3855b3cae49e3f
+      internalID: -1963120178872784812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_0
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 300
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab1aa2e4dc8b7b44a10cdedaff6624b
+      internalID: -1963120178872784812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_1
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 300
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29325c3e80f457f47946ac2c5ac778f3
+      internalID: -1963120178872784812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_2
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 300
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee6d14aadd307a43a22d259fc521980
+      internalID: -1963120178872784812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_3
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 300
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370749c2e2e02a84eb5c81dc3a545546
+      internalID: -1963120178872784812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1223,6 +1333,11 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Checkpoint_Beacon: -1184492757976570921
+      Checkpoint_Terminal: -1963120178872784812
+      Door_0: -1963120178872784812
+      Door_1: -1963120178872784812
+      Door_2: -1963120178872784812
+      Door_3: -1963120178872784812
       Exit_Portal: 1017034892705869085
       FloorFill_Metal: -4909999276634117547
       FloorFill_Tech: 3584639183497102492
