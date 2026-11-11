@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public bool hasCheckpoint;
+
     private Vector3 respawnPosition;
     private Rigidbody2D rb;
 
@@ -9,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         respawnPosition = transform.position;
+        hasCheckpoint = false;
     }
 
     public void Die()
@@ -20,5 +23,6 @@ public class PlayerHealth : MonoBehaviour
     public void SetCheckpoint(Vector3 newPosition)
     {
         respawnPosition = newPosition;
+        hasCheckpoint = true;
     }
 }

@@ -27,6 +27,12 @@ public class LevelExit : MonoBehaviour
     {
         if (isOpening == false && other.CompareTag("Player"))
         {
+            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+            if (playerHealth == null || playerHealth.hasCheckpoint == false)
+            {
+                return;
+            }
+
             isOpening = true;
             timer = 0f;
             enteringPlayer = other.gameObject;
