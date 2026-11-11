@@ -36,3 +36,6 @@ crashlytics-build.properties
 ExportedObj/
 .consulo/
 *.DotSettings.user
+
+*.slnx
+.vsconfig
