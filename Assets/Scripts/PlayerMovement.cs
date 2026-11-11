@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 3f;
     public float sprintSpeed = 5f;
     public float jumpForce = 11f;
+    public float fallMultiplier = 1.5f;
+    public float lowJumpMultiplier = 2f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
@@ -15,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sr;
     private float horizontalInput;
     private float currentSpeed;
+    private float baseGravity;
     private bool isGrounded;
 
     private void Start()
@@ -22,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        baseGravity = rb.gravityScale;
     }
 
     private void Update()
@@ -57,6 +61,19 @@ public class PlayerMovement : MonoBehaviour
         if (Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded == true)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        }
+
+        if (rb.linearVelocity.y < 0f)
+        {
+            rb.gravityScale = baseGravity * fallMultiplier;
+        }
+        else if (rb.linearVelocity.y > 0f && !Keyboard.current.spaceKey.isPressed)
+        {
+            rb.gravityScale = baseGravity * lowJumpMultiplier;
+        }
+        else
+        {
+            rb.gravityScale = baseGravity;
         }
 
         if (Keyboard.current.eKey.wasPressedThisFrame)
